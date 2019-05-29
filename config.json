@@ -1,6 +1,6 @@
 {
         "auths": {
-                "localhost:8082": {
+                "207.154.214.158:8082": {
                         "auth": "YWRtaW46YWRtaW4xMjM="
                 }
         }

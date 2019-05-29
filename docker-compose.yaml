@@ -10,9 +10,13 @@ services:
   jenkins:
     image: streamout/jenkins
     ports: [ "8280:8080" ]
+    deploy:
+      placement:
+        constraints:
+          - node.role == manager
     volumes:
     - jenkins:/var/jenkins_home
-    - /var/run/docker.sock:/var/run/docker.sock
+    - /var/run/docker.sock:/var/run/docker.sock 
 
   gitlab:
       image: gitlab/gitlab-ce:8.5.8-ce.0
