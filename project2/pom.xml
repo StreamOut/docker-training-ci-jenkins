@@ -90,7 +90,7 @@
 	<distributionManagement>
 		<repository>
 			<id>nexus</id>
-			<url>http://${server.address}/repository/maven-releases/</url>
+			<url>http://${server.address}:8082/repository/maven-releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>nexus</id>
