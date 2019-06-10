@@ -1,6 +1,6 @@
 {
         "auths": {
-                "207.154.214.158:8082": {
+                "<IP Manager>:8082": {
                         "auth": "YWRtaW46YWRtaW4xMjM="
                 }
         }
